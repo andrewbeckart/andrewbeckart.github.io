@@ -1,0 +1,222 @@
+[
+  {    
+    "category": "Drawing",
+    "url": "canoe",
+    "title": "Canoe",
+    "image": "Andrew-Beck-Canoe",
+    "date": "2017-12-01",
+    "medium": "Carcoal on paper",
+    "h": "38",
+    "w": "30.5",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "boy-before-the-world",
+    "title": "Boy Before the World",
+    "image": "Andrew-Beck-Boy-Before-the-World",
+    "date": "2017-05-01",
+    "medium": "Oil on linen",
+    "h": "90",
+    "w": "90",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "restoration-iii",
+    "title": "Restoration III",
+    "image": "Andrew-Beck-Restoration-III",
+    "date": "2015-12-01",
+    "medium": "Oil on linen",
+    "h": "60",
+    "w": "60",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "restoration-ii",
+    "title": "Restoration II",
+    "image": "Andrew-Beck-Restoration-II",
+    "date": "2015-11-01",
+    "medium": "Oil on linen",
+    "h": "60",
+    "w": "60",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "restoration-i",
+    "title": "Restoration I",
+    "image": "Andrew-Beck-Restoration-I",
+    "date": "2015-10-01",
+    "medium": "Oil on linen",
+    "h": "60",
+    "w": "60",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "axis",
+    "title": "Axis",
+    "image": "Andrew-Beck-Axis",
+    "date": "2015-04-01",
+    "medium": "Oil on linen",
+    "h": "80",
+    "w": "80",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "the-watchers",
+    "title": "The Watchers",
+    "image": "Andrew-Beck-The-Watchers",
+    "date": "2015-03-01",
+    "medium": "Oil on linen",
+    "h": "70",
+    "w": "100",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "the-onlookers",
+    "title": "The Onlookers",
+    "image": "Andrew-Beck-The-Onlookers",
+    "date": "2013-04-01",
+    "medium": "Oil on linen",
+    "h": "80",
+    "w": "80",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "regardless",
+    "title": "Regardless",
+    "image": "Andrew-Beck-Regardless",
+    "date": "2013-05-01",
+    "medium": "Oil on linen",
+    "h": "120",
+    "w": "155",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "adrift",
+    "title": "Adrift",
+    "image": "Andrew-Beck-Adrift",
+    "date": "2013-07-01",
+    "medium": "Oil on linen",
+    "h": "90",
+    "w": "90",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "study-for-arrival",
+    "title": "Study for Arrival",
+    "image": "Andrew-Beck-Study-for-Arrival",
+    "date": "2013-07-01",
+    "medium": "Oil on linen",
+    "h": "80",
+    "w": "80",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "seen-but-not-heard",
+    "title": "Seen but not heard",
+    "image": "Andrew-Beck-Seen-but-not-heard",
+    "date": "2014-09-01",
+    "medium": "Oil on linen",
+    "h": "60",
+    "w": "70",
+    "availability": ""
+  },
+  {   
+    "category": "Painting",
+    "url": "cameramen",
+    "title": "Cameramen",
+    "image": "Andrew-Beck-Cameramen",
+    "date": "2014-03-01",
+    "medium": "Oil on linen",
+    "h": "75",
+    "w": "85",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "the-interval-of-time-between-birth-and-death",
+    "title": "The interval of time between birth and death",
+    "image": "Andrew-Beck-The-interval-of-time-between-birth-and-death",
+    "date": "2013-02-01",
+    "medium": "Oil on linen",
+    "h": "65",
+    "w": "65",
+    "availability": ""
+  },
+  {   
+    "category": "Painting",
+    "url": "in-the-future",
+    "title": "In the future",
+    "image": "Andrew-Beck-In-the-future",
+    "date": "2013-01-01",
+    "medium": "Oil on linen",
+    "h": "80",
+    "w": "80",
+    "availability": ""
+  },
+  {   
+    "category": "Painting",
+    "url": "jeopardy",
+    "title": "Jeopardy",
+    "image": "Andrew-Beck-Jeopardy",
+    "date": "2013-12-01",
+    "medium": "Oil on linen",
+    "h": "80",
+    "w": "80",
+    "availability": ""
+  },
+  {   
+    "category": "Painting",
+    "url": "the-reporter",
+    "title": "The Reporter",
+    "image": "Andrew-Beck-The-Reporter",
+    "date": "2014-08-01",
+    "medium": "Oil on linen",
+    "h": "60",
+    "w": "80",
+    "availability": ""
+  },
+  {   
+    "category": "Painting",
+    "url": "the-loner",
+    "title": "The Loner",
+    "image": "Andrew-Beck-The-Loner",
+    "date": "2013-06-01",
+    "medium": "Oil on linen",
+    "h": "65",
+    "w": "65",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "pathway",
+    "title": "Pathway",
+    "image": "Andrew-Beck-Pathway",
+    "date": "2013-03-01",
+    "medium": "Oil on linen",
+    "h": "85",
+    "w": "75",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
+    "url": "exit",
+    "title": "Exit",
+    "image": "Andrew-Beck-Exit",
+    "date": "2013-01-01",
+    "medium": "Oil on linen",
+    "h": "90",
+    "w": "90",
+    "availability": ""
+  }
+]
