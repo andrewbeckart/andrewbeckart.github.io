@@ -15,25 +15,21 @@
     
     <div class="slideshow" ng-slideshow="[ 'images/home-1.jpg', 'images/home-2.jpg', 'images/home-3.jpg' ]" interval="5000"></div>
 
-    <div class="layout" layout="column" layout-fill ng-cloak>
+    <div class="container" layout="column" layout-fill ng-cloak>
 
-        <div flex layout="column" layout-gt-sm="row" layout-align="start stretch" layout-align-gt-sm="center stretch">
+        <div flex="none">
+            <nav-bar></nav-bar>
+        </div>
 
-            <div flex="none" flex-gt-sm="20">
-                <nav-bar></nav-bar>
-            </div>
-
-            <div class="view-wrapper" flex flex-gt-sm="80" layout-align="center stretch" layout="row" ng-class="page.direction">
-                <div ng-view class="view" flex layout="column"></div>
-            </div>
-
+        <div class="view-wrapper" flex layout-align="center stretch" layout="column" ng-class="page.direction">
+            <div ng-view class="view" flex layout="column"></div>
         </div>
 
         <footer></footer>
 
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="/js/jquery-2.1.1-wrap-css-effects.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
@@ -43,8 +39,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.7/angular-material.min.js"></script>
     <script src="https://cdn.rawgit.com/keithio/angular-mailchimp/master/angular-mailchimp.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-google-analytics/1.1.6/angular-google-analytics.min.js"></script>
+    <script src="https://cdn.rawgit.com/revolunet/angular-google-analytics/master/dist/angular-google-analytics.min.js"></script>
     <script src="/js/app.min.js"></script>
     <script src="/js/controllers.min.js"></script>
+
 </body>
 </html>
