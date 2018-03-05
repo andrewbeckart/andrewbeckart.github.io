@@ -1,15 +1,14 @@
 <section ng-controller="ListCtrl">
 
-   <h1 ng-bind="title"></h1>
+    <h1 ng-bind="title"></h1>
 
-  <div class="grid" layout="row" layout-wrap>
-      <div class="thumb repeat_animation" flex="50" flex-gt-sm="33" ng-repeat="item in items" animate-on-load>
-         <a href="/gallery/{{item.category | lowercase}}/{{item.url}}">
-         <div class="spinner"></div>
-         <img ng-src="images/thumbs/{{item.image}}.jpg" alt="{{item.title}}" onload="imgLoaded(this)" />
-         <!--<img src="http://placehold.it/350x280/ddd/fff?text={{item.title}}" alt="{{item.title}}" onload="imgLoaded(this)" />-->
-      </a>
-    </div>
-  </div>
+        <div class="grid">
+            <div ng-repeat="item in items" animate-on-load style="width:{{item.w*imgSize/item.h}}px;flex-grow:{{item.w*imgSize/item.h}}">
+                <a href="/gallery/{{item.category | lowercase}}/{{item.url}}" style="padding-bottom:{{item.h/item.w*100}}%;">
+                    <div class="spinner"></div>
+                    <img id="{{item}}" src="images/{{item.image}}.jpg" alt="{{item.title}}" onload="imgLoaded(this)">
+                </a>
+            </div>
+        </div>
 
 </section>

@@ -8,10 +8,10 @@
          {{title}}
       </a>
    </div>
-   <ul class="navbar_nav slide" ng-hide="navShow">
+   <ul class="navbar_nav slide" element-height ng-style="{'height': contentSize.height + 'px'}" ng-hide="navShow">
       <li class="navbar_heading">
          <md-button id="subnav-toggle" ng-click="page.subNavShow = !page.subNavShow" class="chevron">Gallery</md-button>
-         <ul class="slide" ng-show="page.subNavShow" click-outside="closeThis()" outside-if-not="subnav-toggle">
+         <ul class="slide" element-height ng-style="{'height': contentSize.height + 'px !important'}" ng-show="page.subNavShow" click-outside="closeThis()" outside-if-not="subnav-toggle">
             <li ng-repeat="category in categories" ng-class="getClass('/gallery/{{category | lowercase}}')"><md-button ng-click="page.subNavShow = !page.subNavShow" ng-href="/gallery/{{category | lowercase}}">{{category}}</md-button></li>
          </ul>
       </li>
