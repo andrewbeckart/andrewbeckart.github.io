@@ -6,8 +6,8 @@
     "image": "Andrew-Beck-Red-Canoe",
     "date": "2018-02-01",
     "medium": "Oil on panel",
-    "h": "24",
-    "w": "30",
+    "h": "61",
+    "w": "76",
     "availability": ""
   },
   { 
@@ -17,8 +17,8 @@
     "image": "Andrew-Beck-The-Arrival-II",
     "date": "2017-12-01",
     "medium": "Oil on linen",
-    "h": "30",
-    "w": "40",
+    "h": "76",
+    "w": "101.5",
     "availability": ""
   },
   { 
@@ -28,8 +28,8 @@
     "image": "Andrew-Beck-Float-Plane",
     "date": "2017-05-01",
     "medium": "Oil on canvas",
-    "h": "30",
-    "w": "24",
+    "h": "76",
+    "w": "61",
     "availability": ""
   },
   { 
@@ -45,6 +45,17 @@
   },
   { 
     "category": "Painting",
+    "url": "float-plane-ii",
+    "title": "Float Plane II",
+    "image": "Andrew-Beck-Float-Plane-II",
+    "date": "2017-10-01",
+    "medium": "Oil on panel",
+    "h": "61",
+    "w": "61",
+    "availability": ""
+  },
+  {    
+    "category": "Painting",
     "url": "boy-before-the-world",
     "title": "Boy Before the World",
     "image": "Andrew-Beck-Boy-Before-the-World",
@@ -54,7 +65,7 @@
     "w": "90",
     "availability": ""
   },
-  { 
+  {    
     "category": "Painting",
     "url": "restoration-iii",
     "title": "Restoration III",
@@ -116,8 +127,8 @@
     "image": "Andrew-Beck-The-Onlookers",
     "date": "2013-04-01",
     "medium": "Oil on linen",
-    "h": "80",
-    "w": "80",
+    "h": "75",
+    "w": "85",
     "availability": ""
   },
   {    
