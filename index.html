@@ -17,12 +17,12 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.7/angular-material.min.css">
     <link rel="stylesheet" href="/css/theme.min.css">
 </head>
-<body ng-class="page.background">
+<body ng-class="page.background" ng-style="page.height">
     
     <div class="slideshow" ng-slideshow="[ 'images/Andrew-Beck-detail-01.jpg', 'images/Andrew-Beck-detail-02.jpg', 'images/Andrew-Beck-detail-03.jpg' ]" interval="5000"></div>
 
-    <div class="page_container" layout="column" layout-fill ng-cloak>
-
+    <div ng-style="page.height" class="page_container" layout="column" layout-fill ng-cloak>
+        
         <div flex="none">
             <nav-bar></nav-bar>
         </div>
@@ -36,7 +36,7 @@
     </div>
 
     <script src="/js/jquery-2.1.1-wrap-css-effects.min.js"></script>
-    <script src="https://cdn.rawgit.com/Stanko/mobile-chrome-vh-fix/master/mobile-chrome-vh-fix.js"></script>
+    <script src="/js/mobile-chrome-vh-fix.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
@@ -45,8 +45,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.7/angular-material.min.js"></script>
-    <script src="https://cdn.rawgit.com/keithio/angular-mailchimp/master/angular-mailchimp.js"></script>
-    <script src="https://cdn.rawgit.com/revolunet/angular-google-analytics/master/dist/angular-google-analytics.min.js"></script>
+    <script src="/js/angular-mailchimp.min.js"></script>
+    <script src="/js/angular-google-analytics.min.js"></script>
     <script src="/js/app.min.js"></script>
     <script src="/js/controllers.min.js"></script>
 
