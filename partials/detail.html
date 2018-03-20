@@ -10,15 +10,13 @@
 
         <div class="detail_container" layout="column">
 
-            <!--<div flex="none" class="spacer"></div>-->
-
             <figure ng-class="{'zoomed' : zoomed}" 
                     ng-click="zoomed = !zoomed; zoom($event)" 
                     ng-mouseleave="zoomed = false" 
                     ng-mousemove="zoom($event)" 
-                    ng-style="{'background-image':'url(images/'+item.image+'.jpg)'};">
+                    ng-style="{'background-image':'url('+item.imgUrl+')'}">
                 <div class="spinner"></div>
-                <img img-loaded ng-src="images/{{item.image}}.jpg" alt="{{item.title}}" />
+                <img img-loaded ng-src="{{item.imgUrl}}" alt="{{item.title}}" />
             </figure>
 
             <div class="detail_info" flex="nogrow">
