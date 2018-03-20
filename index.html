@@ -21,13 +21,10 @@
     
     <div class="slideshow" ng-slideshow="[ 'images/Andrew-Beck-detail-01.jpg', 'images/Andrew-Beck-detail-02.jpg', 'images/Andrew-Beck-detail-03.jpg' ]" interval="5000"></div>
 
-    <div ng-style="page.height" class="page_container" layout="column" layout-fill ng-cloak>
-        
-        <div flex="none">
-            <nav-bar></nav-bar>
-        </div>
+    <div ng-style="page.height" ng-class="page.container" class="page_container" layout="column" layout-fill ng-cloak>
+        <nav-bar flex="none"></nav-bar>
 
-        <div class="view_container" flex layout-align="center stretch" layout="column" ng-class="page.direction">
+        <div class="view_container" ng-class="page.direction" flex layout-align="center stretch" layout="column">
             <div ng-view class="view" flex layout="column"></div>
         </div>
 
@@ -35,8 +32,7 @@
 
     </div>
 
-    <script src="/js/jquery-2.1.1-wrap-css-effects.min.js"></script>
-    <!--<script src="/js/mobile-chrome-vh-fix.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
