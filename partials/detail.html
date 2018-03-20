@@ -18,7 +18,7 @@
                     ng-mousemove="zoom($event)" 
                     style="background-image: url(images/{{item.image}}.jpg);">
                 <div class="spinner"></div>
-                <img img-loaded src="images/{{item.image}}.jpg" alt="{{item.title}}" />
+                <img img-loaded ng-src="images/{{item.image}}.jpg" alt="{{item.title}}" />
             </figure>
 
             <div class="detail_info" flex="nogrow">
