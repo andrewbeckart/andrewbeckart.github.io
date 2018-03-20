@@ -1,6 +1,6 @@
 <section class="detail_view" flex="grow" layout="column" layout-align="center center">
 
-    <div flex layout="row" layout-align="center center" class="artwork" md-swipe-right="getPrev(prevItem)" md-swipe-left="getNext(nextItem)">
+    <div flex layout="row" layout-align="center center" class="detail" md-swipe-right="getPrev(prevItem)" md-swipe-left="getNext(nextItem)">
         
         <div flex ng-click="getPrev(prevItem)" class="control prev">
             <md-button aria-label="right" class="md-fab md-raised md-mini">
@@ -8,19 +8,20 @@
             </md-button>
         </div>
 
-        <div class="artwork_container" layout="column">
+        <div class="detail_container" layout="column">
 
-            <div flex="none" class="spacer"></div>
+            <!--<div flex="none" class="spacer"></div>-->
 
-            <div class="img_container">
-
+            <figure ng-class="{'zoomed' : zoomed}" 
+                    ng-click="zoomed = !zoomed; zoom($event)" 
+                    ng-mouseleave="zoomed = false" 
+                    ng-mousemove="zoom($event)" 
+                    style="background-image: url(images/{{item.image}}.jpg);">
                 <div class="spinner"></div>
-                <img img-loaded ng-src="images/{{item.image}}.jpg" alt="{{item.title}}">
-                <!--<img src="http://placehold.it/{{(20*item.w)|number:0}}x{{(20*item.h)|number:0}}/ddd/fff?text={{item.title}}" alt="{{item.title}}" onload="imgLoaded(this)"/>-->
-                
-            </div>
+                <img img-loaded src="images/{{item.image}}.jpg" alt="{{item.title}}" />
+            </figure>
 
-            <div class="details" flex="nogrow">
+            <div class="detail_info" flex="nogrow">
 
                 <h1 ng-bind="item.title">&nbsp;</h1> <em ng-cloak ng-bind="(item.date|date:'yyyy')+', '+item.medium+', '+item.h+' x '+item.w+' cm'+' '+item.availability"></em>
 
@@ -60,3 +61,4 @@
     </div>
 
 </section>
+<!--<img src="http://placehold.it/{{(20*item.w)|number:0}}x{{(20*item.h)|number:0}}/ddd/fff?text={{item.title}}" alt="{{item.title}}" onload="imgLoaded(this)"/>-->
