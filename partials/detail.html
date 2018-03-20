@@ -16,7 +16,7 @@
                     ng-click="zoomed = !zoomed; zoom($event)" 
                     ng-mouseleave="zoomed = false" 
                     ng-mousemove="zoom($event)" 
-                    style="background-image: url(images/{{item.image}}.jpg);">
+                    ng-style="{'background-image':'url(images/'+item.image+'.jpg)'};">
                 <div class="spinner"></div>
                 <img img-loaded ng-src="images/{{item.image}}.jpg" alt="{{item.title}}" />
             </figure>
