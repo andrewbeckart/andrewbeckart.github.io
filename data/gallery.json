@@ -1,5 +1,16 @@
 [
   { 
+    "category": "Drawing",
+    "url": "cultivation",
+    "title": "Cultivation",
+    "image": "Andrew-Beck-Cultivation",
+    "date": "2017-03-01",
+    "medium": "Charcoal on paper",
+    "h": "46",
+    "w": "46",
+    "availability": ""
+  },
+  { 
     "category": "Painting",
     "url": "red-canoe",
     "title": "Red Canoe",
