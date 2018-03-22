@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <meta name="description" content="Contemporary artist, figurative oil painting and drawing">
     <title data-ng-bind="page.title"></title>
     <base href="/">
@@ -28,7 +28,7 @@
             <div ng-view class="view" flex layout="column"></div>
         </div>
 
-        <footer></footer>
+        <footer flex="none"></footer>
 
     </div>
 
@@ -40,12 +40,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-touch.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.7/angular-material.min.js"></script>
     <script src="/js/ng-pinch-zoom.min.js"></script>
     <script src="/js/angular-mailchimp.min.js"></script>
     <script src="/js/angular-google-analytics.min.js"></script>
-    <script src="/js/app.min.js"></script>
-    <script src="/js/controllers.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/controllers.js"></script>
 
 </body>
 </html>
