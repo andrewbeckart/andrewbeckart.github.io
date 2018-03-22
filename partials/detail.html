@@ -14,12 +14,9 @@
                     ng-click="zoomed = !zoomed; zoom($event)" 
                     ng-mouseleave="zoomed = false" 
                     ng-mousemove="zoom($event)" 
-                    ng-touchmove="onTouchmove($event)" 
-                    ng-touchstart="someFunction($event)" 
-                    ng-touchend="someFunction($event)" 
                     ng-style="{'background-image':'url('+item.imgUrl+')'}">
                 <div class="spinner"></div>
-                <img ng-pinch-zoom max-scale="2" draggable="false" img-loaded ng-src="{{item.imgUrl}}" alt="{{item.title}}" />
+                <img draggable="false" img-loaded ng-src="{{item.imgUrl}}" alt="{{item.title}}" />
             </figure>
 
             <div class="detail_info" flex="nogrow">
