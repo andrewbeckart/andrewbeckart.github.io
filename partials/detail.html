@@ -1,6 +1,6 @@
 <section class="detail_view" flex="grow" layout="column" layout-align="center center">
 
-    <div flex layout="row" layout-align="center center" class="detail" md-swipe-right="getPrev(prevItem)" md-swipe-left="getNext(nextItem)">
+    <div flex layout="row" layout-align="center center" class="detail" ng-swipe-right="getPrev(prevItem)" ng-swipe-left="getNext(nextItem)">
         
         <div flex ng-click="getPrev(prevItem)" class="control prev">
             <md-button aria-label="right" class="md-fab md-raised md-mini">
@@ -14,9 +14,12 @@
                     ng-click="zoomed = !zoomed; zoom($event)" 
                     ng-mouseleave="zoomed = false" 
                     ng-mousemove="zoom($event)" 
+                    ng-touchmove="onTouchmove($event)" 
+                    ng-touchstart="someFunction($event)" 
+                    ng-touchend="someFunction($event)" 
                     ng-style="{'background-image':'url('+item.imgUrl+')'}">
                 <div class="spinner"></div>
-                <img draggable="false" img-loaded ng-pinch-zoom max-scale="2" ng-src="{{item.imgUrl}}" alt="{{item.title}}" />
+                <img ng-pinch-zoom max-scale="2" draggable="false" img-loaded ng-src="{{item.imgUrl}}" alt="{{item.title}}" />
             </figure>
 
             <div class="detail_info" flex="nogrow">
