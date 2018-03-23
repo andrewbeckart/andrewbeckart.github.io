@@ -1,4 +1,4 @@
-<section class="detail_view" flex="grow" layout="column" layout-align="center center" >
+<section class="detail_view" flex="grow" layout="column" layout-align="center center" md-swipe-right="getPrev(prevItem)" md-swipe-left="getNext(nextItem)">
 
     <div flex layout="row" layout-align="center center" class="detail">
         
@@ -13,10 +13,10 @@
             <figure ng-class="{'zoomed' : zoomed}" 
                     ng-click="zoomed = !zoomed; zoom($event)" 
                     ng-mouseleave="zoomed = false" 
-                    ng-mousemove="zoom($event)"
+                    ng-mousemove="zoom($event)" 
                     ng-style="{'background-image':'url('+item.imgUrl+')'}">
                 <div class="spinner"></div>
-                <img draggable="auto" ng-pinch-zoom img-loaded ng-src="{{item.imgUrl}}" src="{{item.imgUrl}}" alt="{{item.title}}" />
+                <img draggable="auto" img-loaded ng-src="{{item.imgUrl}}" alt="{{item.title}}" />
             </figure>
 
             <div class="detail_info" flex="nogrow">
