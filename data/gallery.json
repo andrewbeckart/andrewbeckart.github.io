@@ -1,10 +1,43 @@
 [
   { 
     "category": "Drawing",
+    "url": "waiting",
+    "title": "Waiting",
+    "image": "Andrew-Beck-Waiting",
+    "date": "2013-03-01",
+    "medium": "Graphite on paper",
+    "h": "76",
+    "w": "76",
+    "availability": ""
+  },
+  { 
+    "category": "Drawing",
+    "url": "Study-for-the-Onlookers",
+    "title": "Study for the Onlookers",
+    "image": "Andrew-Beck-Study-for-the-Onlookers",
+    "date": "2013-04-01",
+    "medium": "Charcoal on paper",
+    "h": "76",
+    "w": "80.4",
+    "availability": ""
+  },
+  { 
+    "category": "Drawing",
+    "url": "out-to-lunch",
+    "title": "Out toLunch",
+    "image": "Andrew-Beck-Out-to-Lunch",
+    "date": "2018-03-28",
+    "medium": "Charcoal on paper",
+    "h": "46",
+    "w": "46",
+    "availability": ""
+  },
+  { 
+    "category": "Drawing",
     "url": "cultivation",
     "title": "Cultivation",
     "image": "Andrew-Beck-Cultivation",
-    "date": "2017-03-01",
+    "date": "2018-03-01",
     "medium": "Charcoal on paper",
     "h": "46",
     "w": "46",
