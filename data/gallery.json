@@ -1,6 +1,50 @@
 [
   { 
     "category": "Drawing",
+    "url": "portage",
+    "title": "Portage",
+    "image": "Andrew-Beck-Portage",
+    "date": "2018-04-05",
+    "medium": "Charcoal on paper",
+    "h": "46",
+    "w": "46",
+    "availability": ""
+  },
+  { 
+    "category": "Drawing",
+    "url": "canoe-ii",
+    "title": "Canoe II",
+    "image": "Andrew-Beck-Canoe-ii",
+    "date": "2018-04-03",
+    "medium": "Charcoal on paper",
+    "h": "46",
+    "w": "46",
+    "availability": ""
+  },
+  { 
+    "category": "Drawing",
+    "url": "out-to-lunch",
+    "title": "Out to Lunch",
+    "image": "Andrew-Beck-Out-to-Lunch",
+    "date": "2018-03-28",
+    "medium": "Charcoal on paper",
+    "h": "46",
+    "w": "46",
+    "availability": ""
+  },
+  { 
+    "category": "Drawing",
+    "url": "cultivation",
+    "title": "Cultivation",
+    "image": "Andrew-Beck-Cultivation",
+    "date": "2018-03-01",
+    "medium": "Charcoal on paper",
+    "h": "46",
+    "w": "46",
+    "availability": ""
+  },
+  { 
+    "category": "Drawing",
     "url": "waiting",
     "title": "Waiting",
     "image": "Andrew-Beck-Waiting",
@@ -19,28 +63,6 @@
     "medium": "Charcoal on paper",
     "h": "76",
     "w": "80.4",
-    "availability": ""
-  },
-  { 
-    "category": "Drawing",
-    "url": "out-to-lunch",
-    "title": "Out toLunch",
-    "image": "Andrew-Beck-Out-to-Lunch",
-    "date": "2018-03-28",
-    "medium": "Charcoal on paper",
-    "h": "46",
-    "w": "46",
-    "availability": ""
-  },
-  { 
-    "category": "Drawing",
-    "url": "cultivation",
-    "title": "Cultivation",
-    "image": "Andrew-Beck-Cultivation",
-    "date": "2018-03-01",
-    "medium": "Charcoal on paper",
-    "h": "46",
-    "w": "46",
     "availability": ""
   },
   { 
