@@ -1,0 +1,14 @@
+<section class="page_view">
+
+    <div layout-xs="column" layout="row" layout-align-gt-xs="start center">
+        <h1 flex flex-sm="60" flex-offset-sm="20" ng-bind-html="post.title"></h1>
+        <em flex="nogrow" flex-sm="20" hide-xs>{{post.date | date:'d MMMM, yyyy'}}</em>
+    </div>
+
+    <div ng-bind-html="post.content"></div>
+
+    <div>
+        <md-button class="md-raised" back>Back</md-button>
+    </div>
+    
+</section>

@@ -1,18 +1,25 @@
-<section class="page_view">
+<section class="page_view" infinite-scroll="getPosts()" infinite-scroll-distance="2">
 
-    <div layout-xs="column" layout="row" layout-align-gt-xs="start center">
-        <h1 flex flex-sm="60" flex-offset-sm="20">News and upcoming shows</h1>
-        <div flex="nogrow" flex-sm="20" hide-xs>
-            <md-button ng-href="http://andrewbeckart.blogspot.com" target="_blank">Studio blog</md-button>
+    <h1 ng-bind-html="blog.description"></h1>
+
+    <div ng-repeat="post in posts | orderBy:'post.date'" layout layout-xs="column" class="news_item repeat_animation" ng-class="{first:$first}" animate-on-load>
+        <div flex flex-sm="60" flex-order-md="2">
+            <h2><a ng-href="news/{{post.slug}}" ng-bind-html="post.title"></a></h2>
+            <em>{{post.date | date:'d MMMM, yyyy'}}</em>
+            <span class="post_except" ng-bind-html="post.excerpt"></span>
+            <md-button class="md-raised" ng-href="news/{{post.slug}}">Read more</md-button>
+        </div>
+        <div flex flex-sm="40" flex-order-md="1">
+            <a ng-href="news/{{post.slug}}">
+                <img src="{{post.featured_image}}" />
+            </a>
         </div>
     </div>
 
-    <div ng-repeat="item in items" class="news_item repeat_animation" ng-class="{first:$first}" animate-on-load>
-        <h2>{{item.title}}</h2>
-        <em>{{item.published | date:'d MMMM yyyy'}}</em>
-        <br /><br />
-        <span ng-bind-html="item.content"></span>
-    </div>
-    <md-button ng-href="http://andrewbeckart.blogspot.com" target="_blank" show-xs>Studio blog</md-button>
+    <!--<div ng-show='loading' class='loading'>Loading...</div>
+
+    <div>
+        <md-button class="md-raised" ng-click="loadMore()">Load More</md-button>
+    </div>-->
 
 </section>
