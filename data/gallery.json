@@ -1,16 +1,467 @@
 [
-  { 
+  {
+    "category": "Painting",
+    "url": "palm-trees",
+    "title": "Palm Trees",
+    "image": "Andrew-Beck-Palm-Trees",
+    "date": "2019-06-30",
+    "medium": "Oil on linen",
+    "h": "62",
+    "w": "48",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "lost-in-the-norwegian",
+    "title": "Lost in the Norwegian",
+    "image": "Andrew-Beck-Lost-in-the-Norwegian",
+    "date": "2019-06-26",
+    "medium": "Oil on canvas",
+    "h": "100",
+    "w": "120",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "the-visit",
+    "title": "The Visit",
+    "image": "Andrew-Beck-The-Visit",
+    "date": "2019-06-15",
+    "medium": "Oil on canvas",
+    "h": "120",
+    "w": "120",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "twin-palms-ii",
+    "title": "Twin Palms II",
+    "image": "Andrew-Beck-Twin-Palms-II",
+    "date": "2019-06-05",
+    "medium": "Oil on canvas",
+    "h": "120",
+    "w": "150",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "the-investigator",
+    "title": "The Investigator",
+    "image": "Andrew-Beck-The-Investigator",
+    "date": "2019-05-25",
+    "medium": "Oil on linen",
+    "h": "78",
+    "w": "92",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "discovery",
+    "title": "Discovery",
+    "image": "Andrew-Beck-Discovery",
+    "date": "2019-04-30",
+    "medium": "Oil on linen",
+    "h": "76",
+    "w": "108",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "ready",
+    "title": "Ready",
+    "image": "Andrew-Beck-Ready",
+    "date": "2019-04-15",
+    "medium": "Oil on linen",
+    "h": "62",
+    "w": "48",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "pool-steps-type-2",
+    "title": "Pool Steps Type 2",
+    "image": "Andrew-Beck-Pool-Steps-Type-2",
+    "date": "2019-04-10",
+    "medium": "Oil on linen",
+    "h": "32",
+    "w": "50",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "pool-steps-type-1",
+    "title": "Pool Steps Type 1",
+    "image": "Andrew-Beck-Pool-Steps-Type-1",
+    "date": "2019-04-05",
+    "medium": "Oil on linen",
+    "h": "32",
+    "w": "50",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "concrete-lily-lily-rose",
+    "title": "Concrete, Lily, Lily, Rose",
+    "image": "Andrew-Beck-Concrete,Lily,Lily,Rose",
+    "date": "2019-04-01",
+    "medium": "Oil on canvas",
+    "h": "91.5",
+    "w": "91.5",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "twin-palms",
+    "title": "Twin Palms",
+    "image": "Andrew-Beck-Twin-Palms",
+    "date": "2019-03-21",
+    "medium": "Oil on canvas",
+    "h": "91.5",
+    "w": "91.5",
+    "availability": "SOLD"
+  },
+  {
     "category": "Drawing",
-    "url": "portage",
-    "title": "Portage",
-    "image": "Andrew-Beck-Portage",
+    "url": "a-surprise",
+    "title": "A Surprise",
+    "image": "Andrew-Beck-A-Surprise",
+    "date": "2019-02-28",
+    "medium": "Charcoal on paper",
+    "h": "35.5",
+    "w": "56",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "treasure-hunters",
+    "title": "Treasure Hunters",
+    "image": "Andrew-Beck-Treasure-Hunters",
+    "date": "2019-02-27",
+    "medium": "Charcoal on paper",
+    "h": "30.5",
+    "w": "45.5",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "study-for-monument",
+    "title": "Study for Monument",
+    "image": "Andrew-Beck-Study-for-Monument",
+    "date": "2019-02-25",
+    "medium": "Charcoal on paper",
+    "h": "28",
+    "w": "36",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "sunlight",
+    "title": "Sunlight",
+    "image": "Andrew-Beck-Sunlight",
+    "date": "2019-02-23",
+    "medium": "Charcoal on paper",
+    "h": "35.5",
+    "w": "28",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "shadows-and-reflections",
+    "title": "Shadows and Reflections",
+    "image": "Andrew-Beck-Shadows-and-Reflections",
+    "date": "2019-02-22",
+    "medium": "Acrylic wash & charcoal on paper",
+    "h": "35.5",
+    "w": "28",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "messenger",
+    "title": "Messenger",
+    "image": "Andrew-Beck-Messenger",
+    "date": "2019-02-05",
+    "medium": "Oil on board",
+    "h": "51",
+    "w": "51",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "the-diver",
+    "title": "The Diver",
+    "image": "Andrew-Beck-The-Diver",
+    "date": "2019-02-24",
+    "medium": "Oil on board",
+    "h": "51",
+    "w": "51",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "monument",
+    "title": "Monument",
+    "image": "Andrew-Beck-Monument",
+    "date": "2019-02-21",
+    "medium": "Oil on board",
+    "h": "76",
+    "w": "101.5",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "cameramen-ii",
+    "title": "Cameramen II",
+    "image": "Andrew-Beck-Cameramen-II",
+    "date": "2019-02-05",
+    "medium": "Oil on canvas",
+    "h": "122",
+    "w": "152",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "erebus",
+    "title": "Erebus",
+    "image": "Andrew-Beck-Erebus",
+    "date": "2018-12-11",
+    "medium": "Oil on linen",
+    "h": "76",
+    "w": "71",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "the-visitor",
+    "title": "The Visitor",
+    "image": "Andrew-Beck-The-Visitor",
+    "date": "2019-02-13",
+    "medium": "Oil on linen",
+    "h": "76",
+    "w": "71",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Drawing",
+    "url": "departing",
+    "title": "Departing",
+    "image": "Andrew-Beck-Departing",
+    "date": "2018-11-27",
+    "medium": "Charcoal on paper",
+    "h": "61",
+    "w": "45.5",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "the-visitor",
+    "title": "The Visitor",
+    "image": "Andrew-Beck-The-Visitor-(study)",
+    "date": "2018-11-21",
+    "medium": "Charcoal on paper",
+    "h": "45.5",
+    "w": "61",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "the-delegates",
+    "title": "The Delegates",
+    "image": "Andrew-Beck-The-Delegates",
+    "date": "2018-11-16",
+    "medium": "Oil on canvas",
+    "h": "51",
+    "w": "51",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "the-selector",
+    "title": "The Selector (Study)",
+    "image": "Andrew-Beck-The-Selector",
+    "date": "2018-11-16",
+    "medium": "Oil on canvas",
+    "h": "51",
+    "w": "51",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "float-plane-iii",
+    "title": "Float Plane III",
+    "image": "Andrew-Beck-Float-Plane-III",
+    "date": "2018-11-06",
+    "medium": "Oil on canvas",
+    "h": "30",
+    "w": "30",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "car-camping",
+    "title": "Car Camping",
+    "image": "Andrew-Beck-Car-Camping",
+    "date": "2018-11-02",
+    "medium": "Oil on canvas",
+    "h": "30",
+    "w": "30",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "springboard",
+    "title": "Springboard",
+    "image": "Andrew-Beck-Springboard",
+    "date": "2018-09-25",
+    "medium": "Oil on canvas",
+    "h": "30",
+    "w": "30",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "sunrise",
+    "title": "Sunrise",
+    "image": "Andrew-Beck-Sunrise",
+    "date": "2018-09-24",
+    "medium": "Oil on canvas",
+    "h": "30",
+    "w": "30",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "swimmers",
+    "title": "Swimmers",
+    "image": "Andrew-Beck-Swimmers",
+    "date": "2018-09-23",
+    "medium": "Oil on canvas",
+    "h": "30",
+    "w": "30",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Painting",
+    "url": "speedboat",
+    "title": "Speedboat",
+    "image": "Andrew-Beck-Speedboat",
+    "date": "2018-09-19",
+    "medium": "Oil on canvas",
+    "h": "30",
+    "w": "30",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Drawing",
+    "url": "the-way-down",
+    "title": "The Way Down",
+    "image": "Andrew-Beck-The-Way-Down",
+    "date": "2018-10-20",
+    "medium": "Charcoal on paper",
+    "h": "61",
+    "w": "45.5",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "brothers",
+    "title": "Brothers",
+    "image": "Andrew-Beck-Brothers",
+    "date": "2018-10-13",
+    "medium": "Charcoal on paper",
+    "h": "45.5",
+    "w": "45.5",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Drawing",
+    "url": "the-colony",
+    "title": "The Colony",
+    "image": "Andrew-Beck-The-Colony",
+    "date": "2018-10-12",
+    "medium": "Charcoal on paper",
+    "h": "47",
+    "w": "60",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "two-houses",
+    "title": "Two Houses",
+    "image": "Andrew-Beck-Two-Houses",
+    "date": "2018-10-11",
+    "medium": "Charcoal on paper",
+    "h": "45.5",
+    "w": "61",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "the-filmmaker",
+    "title": "The Filmmaker",
+    "image": "Andrew-Beck-The-Filmmaker",
+    "date": "2018-10-10",
+    "medium": "Charcoal on paper",
+    "h": "45.5",
+    "w": "45.5",
+    "availability": "SOLD"
+  },
+  {
+    "category": "Drawing",
+    "url": "afternoon-coffee",
+    "title": "Afternoon Coffee",
+    "image": "Andrew-Beck-Afternoon-Coffee",
+    "date": "2018-06-20",
+    "medium": "Charcoal on paper",
+    "h": "45.5",
+    "w": "61",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "brotherhood",
+    "title": "Brotherhood",
+    "image": "Andrew-Beck-Brotherhood",
+    "date": "2018-07-30",
+    "medium": "Oil on canvas",
+    "h": "46",
+    "w": "35.5",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "out-to-lunch",
+    "title": "Out to Lunch (Study)",
+    "image": "Andrew-Beck-Out-to-Lunch-Study",
+    "date": "2018-08-16",
+    "medium": "Oil on canvas",
+    "h": "46",
+    "w": "36",
+    "availability": ""
+  },
+  {
+    "category": "Painting",
+    "url": "the-outing",
+    "title": "The Outing",
+    "image": "Andrew-Beck-The-Outing",
+    "date": "2018-08-14",
+    "medium": "Oil on canvas",
+    "h": "41",
+    "w": "50.5",
+    "availability": ""
+  },
+  {
+    "category": "Drawing",
+    "url": "falling-leaf",
+    "title": "Falling Leaf",
+    "image": "Andrew-Beck-Falling-Leaf",
     "date": "2018-04-05",
     "medium": "Charcoal on paper",
     "h": "46",
     "w": "46",
     "availability": ""
   },
-  { 
+  {
     "category": "Drawing",
     "url": "canoe-ii",
     "title": "Canoe II",
@@ -21,7 +472,7 @@
     "w": "46",
     "availability": ""
   },
-  { 
+  {
     "category": "Drawing",
     "url": "out-to-lunch",
     "title": "Out to Lunch",
@@ -30,9 +481,9 @@
     "medium": "Charcoal on paper",
     "h": "46",
     "w": "46",
-    "availability": ""
+    "availability": "SOLD"
   },
-  { 
+  {
     "category": "Drawing",
     "url": "cultivation",
     "title": "Cultivation",
@@ -41,9 +492,9 @@
     "medium": "Charcoal on paper",
     "h": "46",
     "w": "46",
-    "availability": ""
+    "availability": "SOLD"
   },
-  { 
+  {
     "category": "Drawing",
     "url": "waiting",
     "title": "Waiting",
@@ -54,7 +505,7 @@
     "w": "76",
     "availability": ""
   },
-  { 
+  {
     "category": "Drawing",
     "url": "Study-for-the-Onlookers",
     "title": "Study for the Onlookers",
@@ -65,18 +516,7 @@
     "w": "80.4",
     "availability": ""
   },
-  { 
-    "category": "Painting",
-    "url": "red-canoe",
-    "title": "Red Canoe",
-    "image": "Andrew-Beck-Red-Canoe",
-    "date": "2018-02-01",
-    "medium": "Oil on panel",
-    "h": "61",
-    "w": "76",
-    "availability": ""
-  },
-  { 
+  {
     "category": "Painting",
     "url": "the-arrival-ii",
     "title": "The Arrival II",
@@ -87,18 +527,7 @@
     "w": "101.5",
     "availability": ""
   },
-  { 
-    "category": "Painting",
-    "url": "float-plane",
-    "title": "Float Plane",
-    "image": "Andrew-Beck-Float-Plane",
-    "date": "2017-05-01",
-    "medium": "Oil on canvas",
-    "h": "76",
-    "w": "61",
-    "availability": ""
-  },
-  { 
+  {
     "category": "Drawing",
     "url": "canoe",
     "title": "Canoe",
@@ -107,20 +536,9 @@
     "medium": "Charcoal on paper",
     "h": "38",
     "w": "30.5",
-    "availability": ""
+    "availability": "SOLD"
   },
-  { 
-    "category": "Painting",
-    "url": "float-plane-ii",
-    "title": "Float Plane II",
-    "image": "Andrew-Beck-Float-Plane-II",
-    "date": "2017-10-01",
-    "medium": "Oil on panel",
-    "h": "61",
-    "w": "61",
-    "availability": ""
-  },
-  {    
+  {
     "category": "Painting",
     "url": "boy-before-the-world",
     "title": "Boy Before the World",
@@ -131,7 +549,7 @@
     "w": "90",
     "availability": ""
   },
-  {    
+  {
     "category": "Painting",
     "url": "restoration-iii",
     "title": "Restoration III",
@@ -142,7 +560,7 @@
     "w": "60",
     "availability": ""
   },
-  {    
+  {
     "category": "Painting",
     "url": "restoration-ii",
     "title": "Restoration II",
@@ -153,7 +571,7 @@
     "w": "60",
     "availability": ""
   },
-  {    
+  {
     "category": "Painting",
     "url": "restoration-i",
     "title": "Restoration I",
@@ -164,7 +582,7 @@
     "w": "60",
     "availability": ""
   },
-  {    
+  {
     "category": "Painting",
     "url": "axis",
     "title": "Axis",
@@ -175,7 +593,7 @@
     "w": "80",
     "availability": ""
   },
-  {    
+  {
     "category": "Painting",
     "url": "the-watchers",
     "title": "The Watchers",
@@ -184,9 +602,9 @@
     "medium": "Oil on linen",
     "h": "70",
     "w": "100",
-    "availability": ""
+    "availability": "SOLD"
   },
-  {    
+  {
     "category": "Painting",
     "url": "the-onlookers",
     "title": "The Onlookers",
@@ -197,7 +615,7 @@
     "w": "85",
     "availability": ""
   },
-  {    
+  {
     "category": "Painting",
     "url": "regardless",
     "title": "Regardless",
@@ -206,9 +624,9 @@
     "medium": "Oil on linen",
     "h": "120",
     "w": "155",
-    "availability": ""
+    "availability": "SOLD"
   },
-  {    
+  {
     "category": "Painting",
     "url": "adrift",
     "title": "Adrift",
@@ -217,9 +635,9 @@
     "medium": "Oil on linen",
     "h": "90",
     "w": "90",
-    "availability": ""
+    "availability": "SOLD"
   },
-  {    
+  {
     "category": "Painting",
     "url": "study-for-arrival",
     "title": "Study for Arrival",
@@ -230,7 +648,7 @@
     "w": "80",
     "availability": ""
   },
-  {    
+  {
     "category": "Painting",
     "url": "seen-but-not-heard",
     "title": "Seen but not heard",
@@ -239,9 +657,9 @@
     "medium": "Oil on linen",
     "h": "60",
     "w": "70",
-    "availability": ""
+    "availability": "SOLD"
   },
-  {   
+  {
     "category": "Painting",
     "url": "cameramen",
     "title": "Cameramen",
@@ -250,9 +668,9 @@
     "medium": "Oil on linen",
     "h": "75",
     "w": "85",
-    "availability": ""
+    "availability": "SOLD"
   },
-  {    
+  {
     "category": "Painting",
     "url": "the-interval-of-time-between-birth-and-death",
     "title": "The interval of time between birth and death",
@@ -263,7 +681,7 @@
     "w": "65",
     "availability": ""
   },
-  {   
+  {
     "category": "Painting",
     "url": "in-the-future",
     "title": "In the future",
@@ -274,7 +692,7 @@
     "w": "80",
     "availability": ""
   },
-  {   
+  {
     "category": "Painting",
     "url": "jeopardy",
     "title": "Jeopardy",
@@ -283,9 +701,9 @@
     "medium": "Oil on linen",
     "h": "80",
     "w": "80",
-    "availability": ""
+    "availability": "SOLD"
   },
-  {   
+  {
     "category": "Painting",
     "url": "the-reporter",
     "title": "The Reporter",
@@ -294,9 +712,9 @@
     "medium": "Oil on linen",
     "h": "60",
     "w": "80",
-    "availability": ""
+    "availability": "SOLD"
   },
-  {   
+  {
     "category": "Painting",
     "url": "the-loner",
     "title": "The Loner",
@@ -307,18 +725,7 @@
     "w": "65",
     "availability": ""
   },
-  {    
-    "category": "Painting",
-    "url": "pathway",
-    "title": "Pathway",
-    "image": "Andrew-Beck-Pathway",
-    "date": "2013-03-01",
-    "medium": "Oil on linen",
-    "h": "85",
-    "w": "75",
-    "availability": ""
-  },
-  {    
+  {
     "category": "Painting",
     "url": "exit",
     "title": "Exit",
@@ -327,6 +734,6 @@
     "medium": "Oil on linen",
     "h": "90",
     "w": "90",
-    "availability": ""
+    "availability": "SOLD"
   }
 ]
