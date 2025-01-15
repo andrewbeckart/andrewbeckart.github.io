@@ -1,0 +1,37 @@
+<nav ng-controller="NavCtrl" class="navbar" role="navigation">
+   <div class="navbar_header">
+      <md-button class="navbar_toggle" ng-click="navShow = !navShow">
+         <label class="navbar_label">MENU</label>
+         <span class="icon_bar"></span>
+      </md-button>
+      <a class="navbar_brand" href="/">
+         {{title}}
+      </a>
+   </div>
+   <ul class="navbar_nav slide" element-height ng-style="{'height': contentSize.height + 'px'}" ng-hide="navShow">
+      <li class="navbar_heading">
+         <md-button id="subnav-toggle" ng-click="page.subNavShow = !page.subNavShow" class="chevron">Gallery</md-button>
+         <ul class="slide" element-height ng-style="{'height': contentSize.height + 'px !important'}" ng-show="page.subNavShow" click-outside="closeThis()" outside-if-not="subnav-toggle">
+            <li ng-repeat="category in categories" ng-class="getClass('/gallery/{{category | lowercase}}')"><md-button ng-click="page.subNavShow = !page.subNavShow" ng-href="/gallery/{{category | lowercase}}">{{category}}</md-button></li>
+         </ul>
+      </li>
+      <li ng-class="getClass('/about')"><md-button ng-href="/about">About</md-button></li>
+      <li ng-class="getClass('/news')"><md-button ng-href="/news">News</md-button></li>
+      <li ng-class="getClass('/contact')"><md-button ng-href="/contact">Contact</md-button></li>
+      <li ng-controller="subscribeCtrl" id="subscribe"><md-button ng-click="subscribe($event)" md-ripple-size="partial">Subscribe</md-button></li>
+      <li ng-controller="SocialCtrl" class="social" layout="row" layout-align-xs="space-around">
+          <md-button aria-label="follow on instagram" ng-click="socialUrl('http://www.instagram.com/andrewbeckart')" flex-lt-sm="33">
+              <md-tooltip md-direction="bottom">follow on instagram</md-tooltip>
+              <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#instagram" /></svg></md-icon>
+          </md-button>
+         <md-button aria-label="follow on twitter" ng-click="socialUrl('https://twitter.com/andrewbeckart')">
+            <md-tooltip md-direction="bottom">follow on twitter</md-tooltip>
+            <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#twitter"/></svg></md-icon>
+         </md-button>
+         <md-button aria-label="facebook page" ng-click="socialUrl('https://fb.me/andrewbeckartist')">
+            <md-tooltip md-direction="bottom">facebook page</md-tooltip>
+            <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#facebook"/></svg></md-icon>
+         </md-button>
+      </li>
+   </ul>
+</nav>

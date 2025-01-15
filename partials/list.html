@@ -1,0 +1,14 @@
+<section class="list_view">
+
+    <h1 ng-bind="title"></h1>
+
+    <div class="grid">
+        <div ng-repeat="item in items" animate-on-load style="width:{{item.w*imgSize/item.h}}px;flex-grow:{{item.w*imgSize/item.h}}">
+            <a href="/gallery/{{item.category | lowercase}}/{{item.url}}" style="padding-bottom:{{item.h/item.w*100}}%;">
+                <div class="spinner"></div>
+                <img img-loaded id="{{item}}" ng-src="images/{{item.image}}.jpg" alt="{{item.title}}">
+            </a>
+        </div>
+    </div>
+
+</section>

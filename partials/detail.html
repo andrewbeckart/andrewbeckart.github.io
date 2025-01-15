@@ -1,0 +1,62 @@
+<section class="detail_view" flex="grow" layout="column" layout-align="center center" md-swipe-right="getPrev(prevItem)" md-swipe-left="getNext(nextItem)">
+
+    <div flex layout="row" layout-align="center center" class="detail">
+        
+        <div flex ng-click="getPrev(prevItem)" class="control prev">
+            <md-button aria-label="right" class="controls">
+                <md-tooltip md-direction="right" md-visible="tooltipVisible" md-autohide="false">{{prev.title}}</md-tooltip>
+            </md-button>
+        </div>
+
+        <div class="detail_container" layout="column">
+
+            <figure ng-class="{'zoomed' : zoomed}" 
+                    ng-click="zoomed = !zoomed; zoom($event)" 
+                    ng-mouseleave="zoomed = false" 
+                    ng-mousemove="zoom($event)" 
+                    ng-style="{'background-image':'url('+item.imgUrl+')'}">
+                <div class="spinner"></div>
+                <img draggable="auto" img-loaded ng-src="{{item.imgUrl}}" alt="{{item.title}}" />
+            </figure>
+
+            <div class="detail_info" flex="nogrow">
+
+                <h1 ng-bind="item.title">&nbsp;</h1> <em ng-cloak ng-bind="(item.date|date:'yyyy')+', '+item.medium+', '+item.h+' x '+item.w+' cm' + (item.availability ? ', '+item.availability : '')"></em>
+
+                <md-fab-speed-dial md-direction="up" class="share md-scale md-fab-bottom-right" ng-class="{ 'md-is-open': detail.hover }" md-open="detail.shareOpen" ng-mouseenter="detail.shareOpen=true" ng-mouseleave="detail.shareOpen=false">
+                    <md-fab-trigger>
+                        <md-button class="controls share md-icon-button md-fab md-raised md-mini" aria-label="share">
+                            <md-tooltip md-direction="left" class="ie_hide" md-visible="tooltipVisible" md-autohide="true">Share</md-tooltip>
+                            <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#share" /></svg></md-icon>
+                        </md-button>
+                    </md-fab-trigger>
+                    <md-fab-actions>
+                        <md-button aria-label="tweet" class="md-fab md-raised md-mini" ng-click="tweet(item)">
+                            <md-tooltip md-direction="left" class="ie_hide">tweet</md-tooltip>
+                            <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#twitter" /></svg></md-icon>
+                        </md-button>
+                        <md-button aria-label="like" class="md-fab md-raised md-mini" ng-click="like(item)">
+                            <md-tooltip md-direction="left" class="ie_hide">like</md-tooltip>
+                            <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#facebook" /></svg></md-icon>
+                        </md-button>
+                        <md-button aria-label="pin" class="md-fab md-raised md-mini" ng-click="pin(item)">
+                            <md-tooltip md-direction="left" class="ie_hide">pin</md-tooltip>
+                            <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#pinterest" /></svg></md-icon>
+                        </md-button>
+                    </md-fab-actions>
+                </md-fab-speed-dial>
+
+            </div>
+
+        </div>
+
+        <div flex ng-click="getNext(nextItem)" class="control next">
+            <md-button aria-label="left" class="controls">
+                <md-tooltip md-direction="left" md-visible="tooltipVisible" md-autohide="false">{{next.title}}</md-tooltip>
+            </md-button>
+        </div>
+
+    </div>
+
+</section>
+<!--<img src="http://placehold.it/{{(20*item.w)|number:0}}x{{(20*item.h)|number:0}}/ddd/fff?text={{item.title}}" alt="{{item.title}}" onload="imgLoaded(this)"/>-->

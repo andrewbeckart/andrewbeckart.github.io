@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="description" content="Contemporary artist, figurative oil painting and drawing">
+    <title data-ng-bind="page.title"></title>
+    <base href="/">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Andrew Beck" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.andrewbeck.ca/" />
+    <meta property="og:image" content="http://andrewbeck.ca/images/Andrew-Beck-1200x1200.jpg" />
+    <meta property="og:description" content="Contemporary artist, figurative oil painting and drawing" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.7/angular-material.min.css">
+    <link rel="stylesheet" href="/css/theme.min.css">
+</head>
+<body ng-class="page.background">
+    
+    <div class="slideshow" ng-slideshow="[ 'images/Andrew-Beck-detail-01.jpg', 'images/Andrew-Beck-detail-02.jpg', 'images/Andrew-Beck-detail-03.jpg', 'images/Andrew-Beck-detail-04.jpg' ]" interval="5000"></div>
+
+    <div ng-style="page.height" ng-class="page.container" class="page_container" layout="column" layout-fill ng-cloak>
+        <nav-bar flex="none"></nav-bar>
+
+        <md-button aria-label="close" class="controls close" ng-if="page.container" ng-href="{{page.category}}">
+            <md-tooltip md-direction="left">close</md-tooltip>
+            <md-icon><svg viewBox="0 0 24 24"><use xlink:href="svg/icons.svg#close" /></svg></md-icon>
+        </md-button>
+
+        <div class="view_container" ng-class="page.direction" flex layout-align="center stretch" layout="column">
+            <div ng-view class="view" flex layout="column"></div>
+        </div>
+
+        <footer flex="none"></footer>
+
+        <consent></consent>
+    
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-cookies.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-touch.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.7/angular-material.min.js"></script>
+    <script src="/js/ng-pinch-zoom.min.js"></script>
+    <script src="/js/ng-infinite-scroll.min.js"></script>
+    <script src="/js/angular-mailchimp.min.js"></script>
+    <script src="/js/angular-google-analytics.min.js"></script>
+    <script src="/js/app.min.js"></script>
+    <script src="/js/controllers.min.js"></script>
+
+</body>
+</html>
